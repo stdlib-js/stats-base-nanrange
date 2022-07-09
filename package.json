@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-nanrange",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Calculate the range of a strided array, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
