@@ -43,30 +43,14 @@ The [**range**][range] is defined as the difference between the maximum and mini
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-nanrange
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var nanrange = require( '@stdlib/stats-base-nanrange' );
+import nanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanrange@esm/index.mjs';
 ```
 
 #### nanrange( N, x, stride )
@@ -90,7 +74,7 @@ The function has the following parameters:
 The `N` and `stride` parameters determine which elements in `x` are accessed at runtime. For example, to compute the [range][range] of every other element in `x`,
 
 ```javascript
-var floor = require( '@stdlib/math-base-special-floor' );
+import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
 
 var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN, NaN ];
 var N = floor( x.length / 2 );
@@ -104,8 +88,8 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
-var floor = require( '@stdlib/math-base-special-floor' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
 
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, NaN, NaN, 4.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
@@ -135,7 +119,7 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying `buffer`, the `offset` parameter supports indexing semantics based on a starting index. For example, to calculate the [range][range] for every other value in `x` starting from the second value
 
 ```javascript
-var floor = require( '@stdlib/math-base-special-floor' );
+import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
 
 var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, NaN, NaN, 2.0, 3.0, 4.0 ];
 var N = floor( x.length / 2 );
@@ -165,11 +149,16 @@ var v = nanrange.ndarray( N, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var Float64Array = require( '@stdlib/array-float64' );
-var nanrange = require( '@stdlib/stats-base-nanrange' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+import nanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanrange@esm/index.mjs';
 
 var x;
 var i;
@@ -186,6 +175,10 @@ console.log( x );
 
 var v = nanrange( x.length, x, 1 );
 console.log( v );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -219,7 +212,7 @@ console.log( v );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -287,15 +280,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats-base-dnanrange
+[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats-base-dnanrange/tree/esm
 
-[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax
+[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax/tree/esm
 
-[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin
+[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin/tree/esm
 
-[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats-base-range
+[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats-base-range/tree/esm
 
-[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange
+[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange/tree/esm
 
 <!-- </related-links> -->
 
