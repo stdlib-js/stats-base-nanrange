@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-03-29)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`25c5335`](https://github.com/stdlib-js/stdlib/commit/25c5335e1b70fca6b2797c03e9ee446c588bff1e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`d9faaa4`](https://github.com/stdlib-js/stdlib/commit/d9faaa4844569d684a9e9b01922c57c5f445aa13) - **feat:** refactor and add accessor protocol support to `stats/base/nanrange` [(#6248)](https://github.com/stdlib-js/stdlib/pull/6248) _(by Prajjwal Bajpai, Athan Reines, Aayush Khanna)_
 
 </details>
