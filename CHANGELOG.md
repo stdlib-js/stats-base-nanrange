@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`ffc393b`](https://github.com/stdlib-js/stdlib/commit/ffc393ba0e5270509bc47ebd5350ae77c4a1ef7f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c313ded`](https://github.com/stdlib-js/stdlib/commit/c313ded7f981c1b180883cfafe1538cb48c10fe1) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`36e1bc3`](https://github.com/stdlib-js/stdlib/commit/36e1bc38710d07b84bf38c11cedaec4748b7faeb) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`25c5335`](https://github.com/stdlib-js/stdlib/commit/25c5335e1b70fca6b2797c03e9ee446c588bff1e) - **refactor:** update paths _(by Aayush Khanna)_

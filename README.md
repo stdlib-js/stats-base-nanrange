@@ -193,7 +193,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats-strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/nanmax`][@stdlib/stats/strided/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats-base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/nanmin`][@stdlib/stats/strided/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/snanrange`][@stdlib/stats/strided/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
 
@@ -287,7 +287,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/nanmax]: https://github.com/stdlib-js/stats-strided-nanmax
 
-[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin
+[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats-strided-nanmin
 
 [@stdlib/stats/base/range]: https://github.com/stdlib-js/stats-base-range
 
